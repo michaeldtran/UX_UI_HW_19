@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio Homepage</title>
+    </head>
+<body>
+<div class="gridLayout">
+<header class="header">
+    <nav id="navBar">
+        <div class="logo">
+            <img src="images/Logo.png">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a class="active" href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#about">Contact</a>
+            <a href="#about">Resume</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<section class="aside-left">
+    <div class="left">
+        <img src="images/Portrait.png" alt="Michael Tran" width="174px" height="auto">
+        <h3>Michael Tran</h3>
+        <p>User Researcher <br> / UX Designer</p>
+    </div>
+</section>
+
+<section class="main">
+    <h3>Hello! I’m Michael, a user experience designer that looks to use words and design to create positive, meaningful, and lasting impacts. I enjoy solving user-based problems through research and testing to design memorable products. 
+        </h3>
+</section>
+
+<!--  My UX Skills section coded using CSS flex -->
+<section class="skills">
+    <div class="sectionHeading"><h2>Skills and Expertise</h2></div>
+    <ul class="flex-container flex-start">
+        <li class="flex-skill">Research
+            <ul class="flex-subskill">
+                <li>User Interviews</li>
+                <li>User Personas</li>
+                <li>Journey Mapping</li>
+                <li>Storyboarding</li>
+            </ul>
+        </li>
+
+        <li class="flex-skill">Design
+            <ul class="flex-subskill">
+                <li>User Flows</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Information Architecture</li>
+                <li>Content Writing</li>
+            </ul>
+        </li>
+        <li class="flex-skill">Development
+            <ul class="flex-subskill">
+                <li>HTML/CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </li>
+        <li class="flex-skill">Testing
+            <ul class="flex-subskill">
+                <li>Usability Testing</li>
+                <li>A/B Testing</li>
+            </ul>
+        </li>
+    </ul>
+   
+</section>
+
+<section class="sectionHeading">
+    <div class="sectionHeading"><h2>Work</h2></div>
+</section>
+<!-- My Work Section Constructed using CSS Grid -->    
+<section class="caseStudy case-study-1">
+    <div class="caseStudy case-study-1"></div>
+        <div class="caseStudyContent">
+            <h3>Case Study 1: OneForAll Volunteering</h3>
+            <p>Prototype of a potential volunteering app to allow volunteers and organizations to connect, and to simplify applications. </p></div>
+        <div class="caseStudySkills"><p>User Research, UX/UI Design, Wireframing, Prototyping, Testing</p>
+        <button type="caseStudyButton">View Case Study</button></div>
+    <div class="caseStudyImage"><img src="images/Desktop/03 iPhone 11/19/Clay White.png"></div>
+    
+</section>
+
+<div class="caseStudy case-study-2">
+    <div class="caseStudy case-study-1"></div>
+    <div class="caseStudyContent">
+        <h3>Case Study 2: CBC Radio-Canada Homepage Redesign</h3>
+        <p>A redesign concept of the CBC Radio-Canada homepage aimed to improve content layout and usability.</p></div>
+    <div class="caseStudySkills"><p>User Research, UX/UI Design, Information Architecture, Wireframing, Prototyping, Testing</p>
+    <button type="caseStudyButton">View Case Study</button></div>
+<div class="caseStudyImage"><img src="images/CBC Logo.png" width="175" height="175"></div>
+</div>
+
+<div class="caseStudy case-study-3">
+    <div class="caseStudy case-study-1"></div>
+    <div class="caseStudyContent">
+        <h3>Case Study 3: CNIB UI Redesign Concept</h3>
+        <p>A redesign concept of the CNIB Foundation homepage and donation page.</p></div>
+    <div class="caseStudySkills"><p>User Research, UI Design, Form, Prototyping, Testing</p>
+    <button type="caseStudyButton">View Case Study</button></div>
+<div class="caseStudyImage"><img src="images/CNIB Logo.svg"></div>
+</div>
+</section>
+    
+<section class="footer">
+    <p>email: michael.daniel.tran@gmail.com <br>
+    tel: 647-338-7321 <br>
+    ©2021 Michael Tran</p>
+    <div class="social">
+        <img src="images/Linkedin-Icon.png" alt="LinkedIn">
+        <img src="images/Dribbble-logo_white 1.png" alt="Dribbble">
+    </div>
+</section>
+
+<div class="signoff"><h1>I’M EXCITED TO WORK WITH YOU!</h1></div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+    
+</div>
+
+</body>
+</html>
