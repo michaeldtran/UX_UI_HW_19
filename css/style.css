@@ -302,16 +302,15 @@ body {
   .logo {
     display:
   }
-}
-@media screen and (max-width: 600px) {
+  .CBClogo {
+    width: 100px;
+    height: 100px;
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
